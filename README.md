@@ -1,10 +1,11 @@
 # Setup CI tutorial for Trainee
 
 ### Setup Sun*CI
-Create file .sun-ci.yml with [template](https://github.com/huytq-0932/template-ci/blob/main/.sun-ci.yml) to your project root
+- Create file .sun-ci.yml with [template](https://github.com/huytq-0932/template-ci/blob/main/.sun-ci.yml) to your project root
 ### Setup CircleCI
 - Create file config.yml with [template](https://github.com/huytq-0932/template-ci/blob/main/.circleci/config.yml) to your project root under a .circleci folder 
-### Edit environment in both .sun-ci.yml and config.yml
+### Edit environment 
+Edit enviroment in .circleci/config.yml
 - Replace info chatwork box's id in ROOM_ID by your box's id
 - Replace info chatwork accounts in MEMBERS by your team's chatwork accounts
 ```
