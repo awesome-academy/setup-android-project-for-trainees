@@ -8,9 +8,10 @@ jobs:
   stage: lint
   image: androidsdk/android-29:latest
   environment:
-    ROOM_ID: "158675752"
+      # This is Android review pull request box 
+    ROOM_ID: "YOUR_BOX_ID"
       # Insert the chatwork accounts which you want to mention when the pull request was verified
-    MEMBERS: "[To:4070497] Tran Quang Huy"
+    MEMBERS: "[To:MEMBER1_ID] MEMBER 1 [To:MEMBER2_ID] MEMBER 2"
   cache:
   - key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
     paths:
