@@ -35,8 +35,7 @@ jobs:
                 \"body= $MEMBERS [info][title]Repository : $CI_REPOSITORY $(cat .build_icon)[/title]Your pull request is $(cat .build_status) \n
               -> Click here for more detail: https://ci.sun-asterisk.com/$CI_GIT_PROVIDER/$CI_REPOSITORY/builds/$CI_BUILD_NUMBER \n
               - Author: $CI_COMMIT_AUTHOR \n
-              - Pull request: https://$CI_GIT_PROVIDER.com/$CI_REPOSITORY/$(cat .pull_end_point) [/info]
-                \"\
+              - Pull request: https://$CI_GIT_PROVIDER.com/$CI_REPOSITORY/$(cat .pull_end_point) [/info]\" \
                 \"https://api.chatwork.com/v2/rooms/$ROOM_ID/messages\""
   only:
     branches:
