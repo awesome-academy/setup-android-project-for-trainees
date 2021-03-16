@@ -16,3 +16,7 @@ Create file .sun-ci.yml with [template](https://github.com/huytq-0932/template-c
 **Review**
 - Add changes and push them to your repository
 - Notify Trainer review 
+
+# Setup Pull Request Title Checker Tool for Trainee Tutorial
+- Create file .github/workflows/pull_request_title_conventions.yml 
+- Copy content of [file](https://github.com/huytq-2422/setup-ci-tutorial/blob/main/.github/workflows/pull_request_title_conventions.yml) into recent created file. 
