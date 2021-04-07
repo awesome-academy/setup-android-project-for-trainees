@@ -3,15 +3,15 @@
 ## 1. Add .gitignore 
 - Create file .gitignore in root
 - Copy content of [file](https://github.com/awesome-academy/setup-android-project-for-trainees/blob/main/.gitignore) into created file.
-## 2. Setup Pull Request Title Checker Tool (For Trainees)
+## 2. Add Pull Request Title Checking Tool (For Trainees)
 - Create file .github/workflows/pull_request_title_conventions.yml 
 - Copy content of [file](https://github.com/awesome-academy/setup-android-project-for-trainees/blob/main/.github/workflows/pull_request_title_conventions.yml) into recent created file.
 
-## 3. Setup Pull Request Template (For Trainees)
+## 3. Add Pull Request Template (For Trainees)
 - Create file .github/pull_request_template.md
 - Copy content of [file](https://github.com/awesome-academy/setup-android-project-for-trainees/blob/main/.github/pull_request_template.md) into recent created file.
 
-## 4. Setup Sun* CI tutorial (For Trainees)
+## 4. Add Sun* CI (For Trainees)
 Create file .sun-ci.yml with [template](https://github.com/awesome-academy/setup-android-project-for-trainees/blob/main/.sun-ci.yml) to your project root
 
 **Edit environment**
