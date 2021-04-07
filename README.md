@@ -6,7 +6,7 @@
 - Create file .github/pull_request_template.md
 - Copy content of [file](https://github.com/awesome-academy/setup-android-project-for-trainees/blob/main/.github/pull_request_template.md) into recent created file.
 
-# 3. Setup CI tutorial for Trainee
+# 3. Setup CI tutorial (For Trainees)
 
 **Setup Sun*CI**
 Create file .sun-ci.yml with [template](https://github.com/awesome-academy/template-ci/blob/main/.sun-ci.yml) to your project root
