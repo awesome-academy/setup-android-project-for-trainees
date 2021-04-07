@@ -5,7 +5,7 @@
 - Copy content of [file](https://github.com/awesome-academy/setup-android-project-for-trainees/blob/main/.gitignore) into created file.
 ## 2. Setup Pull Request Title Checker Tool (For Trainees)
 - Create file .github/workflows/pull_request_title_conventions.yml 
-- Copy content of [file](https://github.com/awesome-academy/setup-ci-tutorial/blob/main/.github/workflows/pull_request_title_conventions.yml) into recent created file.
+- Copy content of [file](https://github.com/awesome-academy/setup-android-project-for-trainees/blob/main/.github/workflows/pull_request_title_conventions.yml) into recent created file.
 
 ## 3. Setup Pull Request Template (For Trainees)
 - Create file .github/pull_request_template.md
@@ -14,7 +14,7 @@
 ## 4. Setup CI tutorial (For Trainees)
 
 **Setup Sun*CI**
-Create file .sun-ci.yml with [template](https://github.com/awesome-academy/template-ci/blob/main/.sun-ci.yml) to your project root
+Create file .sun-ci.yml with [template](https://github.com/awesome-academy/setup-android-project-for-trainees/blob/main/.sun-ci.yml) to your project root
 
 **Edit environment**
 - Replace info chatwork box's id in ROOM_ID by your box's id
